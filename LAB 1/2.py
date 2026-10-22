@@ -34,7 +34,7 @@ f=300
 t=np.arange(0,1,step=1/8000)
 semnal= np.sign(np.sin(2*np.pi*f*t))
 axs[3].plot(t,semnal)
-axs[3].set_title('c')
+axs[3].set_title('d')
 
 
 
@@ -62,7 +62,6 @@ plt.savefig('2e.pdf')
 plt.show()
 plt.close(fig)
 
-
 a = np.zeros((128, 128))
 a[:, 43:85] = 1
 a[:, 85:] = 2
@@ -74,7 +73,7 @@ plt.savefig('2f.pdf')
 plt.show()
 plt.close(fig)
 
-# 3 a)0.0005 s
-#   b) 3600000 bytes
+# 3 a)0.0005 s=1/2000
+#   b) 3600000 bytes = 2000*3600*4/8
 
 
