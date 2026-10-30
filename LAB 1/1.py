@@ -37,7 +37,7 @@ plt.close(fig)
 
 
 
-ts=np.arange(0,0.03, step=0.00005)
+ts=np.arange(0,0.5, step=0.005)
 
 
 x=np.cos(520*np.pi*ts + np.pi/3)
@@ -60,9 +60,9 @@ axs[2].set_title('z(t) = cos(120πt + π/3)')
 
 
 for ax in axs.flat:
-    ax.set_xlim([0,0.03])
+    ax.set_xlim([0,0.5])
 
 
 plt.tight_layout()
-plt.savefig('1b.pdf')
+plt.savefig('1c.pdf')
 plt.show()

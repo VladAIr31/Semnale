@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-fs = 200 
+fs = 400
 t = np.arange(0, 1, 1/fs) 
 f1, f2, f3, f4  = 2, 27, 99, 50
 
