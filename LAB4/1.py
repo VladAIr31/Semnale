@@ -75,6 +75,7 @@ plt.legend()
 plt.grid(True, which="both", ls="--", alpha=0.5)
 
 plt.tight_layout()
+plt.savefig("1.pdf")
 plt.show()
 
 
