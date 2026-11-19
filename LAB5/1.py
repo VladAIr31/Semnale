@@ -4,7 +4,9 @@ import csv
 x = np.genfromtxt('Train.csv', delimiter=',')
 esantioane=x[1:,0]
 valori=x[1:,2]
-
+#1 1/3600 hz
+#2 18288
+#3  1/3600/2-> 1/7200
 
 plt.plot(esantioane, valori) 
 
